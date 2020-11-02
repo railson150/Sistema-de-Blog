@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 
-const senhaBanco = ''
-const connection = new Sequelize('sistemablog', 'root', senhaBanco, {
+const passwordDataBase = ''
+const connection = new Sequelize('sistemablog', 'root', passwordDataBase, {
     host: 'localhost',
     dialect: 'mysql'
 })
